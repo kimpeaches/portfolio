@@ -1,66 +1,61 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
+:root  {
+    --header-height: 3rem;
+    --nav-width: 324px;
 
-  
-  /*===== Font weight =====*/
-  
-  /*===== Colors =====*/
-  
-  /*===== Font and typography =====*/
-  
-  /*===== Margenes =====*/
-  
-  /*===== z index =====*/
-  
+    /*===== Font weight =====*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
 
+    /*===== Colors =====*/
+    --first-color: #d17563;
+    --first-color-dark: #cd5740;
+    --first-color-darken: #ae3d26;
+    --text-color: #884639;
+    --first-color-light: #e3bdb6;
+    --first-color-lighten: #f0e6e4;
+
+    /*===== Font and typography =====*/
+    --body-font: "Poppins", sans-serif;
+
+    /*===== Margenes =====*/
+
+    /*===== z index =====*/
+}
 
 /*===== BASE =====*/
 
-
 /*===== CLASS CSS ===== */
-
 
 /*===== LAYOUT =====*/
 
-
 /*===== NAV =====*/
-
 
 /*=== Show menu ===*/
 
-
 /*Active menu*/
-
 
 /*===== HOME =====*/
 
-
 /*BUTTONS*/
-
 
 /* ===== ABOUT =====*/
 
-
 /* ===== SKILLS =====*/
-
 
 /* ===== EDUCATION =====*/
 
-
 /* ===== SERVICES =====*/
-
 
 /* ===== PROJECT IN MIND  =====*/
 
-
 /* ===== WORKS =====*/
-
 
 /* ===== CONTACT =====*/
 
-
 /* ===== FOOTER =====*/
-
 
 /* ===== MEDIA QUERIES=====*/
