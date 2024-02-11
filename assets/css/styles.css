@@ -1,16 +1,13 @@
-/*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-/*===== VARIABLES CSS =====*/
-:root  {
+
+:root {
     --header-height: 3rem;
     --nav-width: 324px;
 
-    /*===== Font weight =====*/
     --font-medium: 500;
     --font-semi-bold: 600;
     --font-bold: 700;
 
-    /*===== Colors =====*/
     --first-color: #d17563;
     --first-color-dark: #cd5740;
     --first-color-darken: #ae3d26;
@@ -18,17 +15,99 @@
     --first-color-light: #e3bdb6;
     --first-color-lighten: #f0e6e4;
 
-    /*===== Font and typography =====*/
     --body-font: "Poppins", sans-serif;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
 
     /*===== Margenes =====*/
+    --mb-1: 0.5rem;
 
     /*===== z index =====*/
+    --z-fixed: 100;
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --h1-font-size: 1.5rem;
+        --h2-font-size: 1.25rem;
+        --h3-font-size: 1rem;
+        --normal-font-size: 0.938rem;
+        --small-font-size: 0.813rem;
+        --smaller-font-size: 0.75rem;
+    }
 }
 
 /*===== BASE =====*/
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    background-color: var(--first-color-lighten);
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h3 {
+    font-weight: var(--font-semi-bold);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
 /*===== CLASS CSS ===== */
+.section {
+    padding: 4rem 0 2rem;
+}
+
+.section-title {
+    font-size: var(--h1-font-size);
+    color: var(--first-color);
+    margin-bottom: var(--mb-3);
+    text-align: center;
+}
+
+.section-subtitle {
+    display: block;
+    font-size: var(--small-font-size);
+    color: var(--first-color-darken);
+    text-align: center;
+    font-weight: var(--font-bold);
+    margin-bottom: 0.25rem;
+}
 
 /*===== LAYOUT =====*/
 
