@@ -204,6 +204,7 @@ img {
     align-items: center;
     height: max-content;
     text-align: center;
+    gap: 1.5rem;
 }
 
 .home__img {
@@ -236,11 +237,147 @@ img {
 }
 
 /*BUTTONS*/
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    padding: 1rem 2rem;
+    font-weight: var(--font-semi-bold);
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: var(--first-color-dark);
+}
+
+.button__light {
+    background-color: var(--first-color-lighten);
+    color: var(--first-color);
+}
+
+.button__light:hover {
+    color: var(--first-color-lighten);
+}
 
 /* ===== ABOUT =====*/
+.about__container {
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.about__data {
+    text-align: center;
+}
+
+.about__description {
+    margin-bottom: var(--mb-4);
+}
+
+.about__img {
+    width: 150px;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+}
+
+.about__information {
+    margin-bottom: var(--mb-4);
+    text-align: center;
+}
+
+.about__information-title {
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-2);
+}
+
+.about__information-data {
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    margin-bottom: var(--mb-3);
+}
+
+.about__information-icon {
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-right: var(--mb-4);
+}
+
+.about__information-subtitle {
+    display: block;
+    font-weight: var(--font-semi-bold);
+}
+
+.about__information-subtitle-small {
+    font-size: var(--small-font-size);
+}
 
 /* ===== SKILLS =====*/
+.skills__container {
+    row-gap: 2rem;
+}
 
+.skills__subtitle {
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: 5%;
+}
+
+.skills__data {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 var(--mb-2);
+    margin-bottom: 3%;
+}
+
+.skills__name {
+    text-transform: uppercase;
+}
+
+.skills__bar {
+    position: absolute;
+    bottom: -0.5rem;
+    height: 0.25rem;
+    background-color: var(--first-color);
+}
+
+.skills__html {
+    width: 80%;
+}
+
+.skills__js {
+    width: 70%;
+}
+
+.skills__react {
+    width: 70%;
+}
+
+.skills__rest {
+    width: 70%;
+}
+
+.skills__python {
+    width: 70%;
+}
+
+.skills__django {
+    width: 80%;
+}
+
+.skills__sql {
+    width: 70%;
+}
+
+.skills__mongo {
+    width: 80%;
+}
+
+.skills__fast {
+    width: 70%;
+}
 /* ===== EDUCATION =====*/
 
 /* ===== SERVICES =====*/
