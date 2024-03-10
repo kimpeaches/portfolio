@@ -469,6 +469,7 @@ a.button__light {
     overflow: hidden;
     border-radius: 0.5rem;
     margin-bottom: 10%;
+    width: 75%;
 }
 
 .works__data {
@@ -646,7 +647,7 @@ a.button__light {
     }
 
     .project__img {
-        width: 230px;
+        width: 500px;
         align-self: flex-end;
     }
 
