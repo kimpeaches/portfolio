@@ -344,15 +344,15 @@ img {
 }
 
 .skills__html {
-    width: 80%;
+    width: 90%;
 }
 
 .skills__js {
-    width: 60%;
+    width: 80%;
 }
 
 .skills__react {
-    width: 60%;
+    width: 80%;
 }
 
 .skills__rest {
@@ -360,7 +360,7 @@ img {
 }
 
 .skills__ui {
-    width: 80%;
+    width: 70%;
 }
 
 .skills__python {
